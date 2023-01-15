@@ -39,3 +39,6 @@ console.log(capitalise(stringInput));
 //Sample Input - 1 using arrow function declaration 
 var stringInput='MeRRy hAD a LITTle lAMp';
 console.log(_capitalise(stringInput));
+
+//jest testing
+module.exports = {capitalise, _capitalise};
