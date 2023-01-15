@@ -15,3 +15,6 @@ console.log(concatStrings(stringInput));
 //Sample Case using Arrow function implementation
 stringInput=["code", "academy"];
 console.log(_concatStrings(stringInput));
+
+//jest testing
+module.exports = {concatStrings, _concatStrings};
