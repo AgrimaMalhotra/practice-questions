@@ -25,3 +25,6 @@ console.log(countVowels(stringInput));
  //Sample Case for Arrow Function declaration
  stringInput="codeacademy";
  console.log(_countVowels(stringInput));
+
+ //jest testing
+module.exports = {countVowels, _countVowels};
