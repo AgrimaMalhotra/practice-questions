@@ -11,5 +11,8 @@ yearInput=2000;
 console.log(checkLeapYear(yearInput));
 
 //Sample Input with arrow function implementation
-yearInput=100;
+yearInput=2000;
 console.log(_checkLeapYear(yearInput));
+
+//jest testing
+module.exports = {checkLeapYear, _checkLeapYear};
