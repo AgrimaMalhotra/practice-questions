@@ -27,3 +27,6 @@ console.log(checkEndsWith(stringInput));
 //Sample Input for Arrow function implementation
 stringInput='javaScript';
 console.log(_checkEndsWith(stringInput));
+
+//jest testing
+module.exports = {checkEndsWith, _checkEndsWith};
