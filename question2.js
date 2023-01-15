@@ -1,4 +1,4 @@
-//normal function implementation
+// normal function implementation
 function sameDigits(input){
     //extract digit at units place
     const unitDigit = input % 10;
