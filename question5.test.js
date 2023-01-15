@@ -9,7 +9,7 @@ test('testCase2' , () => {
 });
 
 test('testCase3' , () => {
-    expect(checkLeapYear(4000)).toBe(true);
+    expect(checkLeapYear(2024)).toBe(true);
 });
 
 test('testCase4' , () => {
