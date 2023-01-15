@@ -13,14 +13,12 @@ function checkEndsWith(input){
 //Arrow function implementation
 
 //helper function to check if ends with 'Script'
-let _check = strInput =>{
-    return strInput.endsWith('Script') ? true : false;}
+let _check = strInput => strInput.endsWith('Script') ? true : false;
 
 // main function to perform the check
-let _checkEndsWith = input => {
+let _checkEndsWith = input => 
     //ternary condition to check for length of input to be greater than equal 6
-    return input.length >= 6 ? _check(input) : false ;
-}
+    input.length >= 6 ? _check(input) : false ;
 
 //Sample Input for Normal function implementation
 stringInput='javaScript';
