@@ -24,3 +24,6 @@ console.log(largestEvenNumber(arrayInput));
 //Sample Case - 2 using arrow function declaration 
 arrayInput=[1, 3, 5, 7];
 console.log(_largestEvenNumber(arrayInput));
+
+//jest testing
+module.exports = {largestEvenNumber, _largestEvenNumber};
