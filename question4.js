@@ -17,3 +17,6 @@ console.log(longestString(arrayInput));
 // Sample Input - 1 using Arrow function declaration
 arrayInput=["we", "love", "code", "academy"];
 console.log(_longestString(arrayInput));
+
+//jest testing
+module.exports = {longestString, _longestString};
