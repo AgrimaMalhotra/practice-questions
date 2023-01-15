@@ -1,4 +1,4 @@
-//normal function implementation
+//Normal function implementation
 function largestEvenNumber(input){
     //store even numbers in evenArray
     const evenArray= input.filter(function (number) {return number%2==0});
