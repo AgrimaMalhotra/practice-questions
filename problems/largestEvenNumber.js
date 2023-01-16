@@ -11,6 +11,9 @@ function getLargestEvenNumber(arrayInput) {
 
 //arrow function implementation
 let _getLargestEvenNumber = arrayInput => {
+  if (!Array.isArray(arrayInput) || (!arrayInput.every(num => Number.isInteger(num)))) {
+    throw new 'Type Error';
+  }
   const evenArray = arrayInput.filter(number => number % 2 == 0);
   evenArray.sort((a, b) => { return b - a; });
   return evenArray.length > 0 ? evenArray[0] : -1;
