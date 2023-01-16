@@ -1,4 +1,4 @@
-const { getLargestEvenNumber, _getlargestEvenNumber } = require('practice-questions/problems/largestEvenNumber.js');
+const { getLargestEvenNumber, _getLargestEvenNumber } = require('practice-questions/problems/largestEvenNumber.js');
 
 describe('Array Utilities', () => {
   describe('Largest Even Number in input array', () => {
@@ -9,10 +9,10 @@ describe('Array Utilities', () => {
       expect(() => getLargestEvenNumber("teststring")).toThrow("Type Error");
     });
     it('should raise TypeError if array elements are not number', () => {
-      expect(() => getLargestEvenNumber([1, 2, 3, 'str'])).toThrow("Type Error");
+      expect(() => _getLargestEvenNumber([1, 2, 3, 'str'])).toThrow("Type Error");
     });
     it('should return -1 if no array element is even', () => {
-      expect(getLargestEvenNumber([1, 5, 3, 9])).toBe(-1);
+      expect(_getLargestEvenNumber([1, 5, 3, 9])).toBe(-1);
     });
   });
 });
