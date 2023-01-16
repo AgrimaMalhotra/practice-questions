@@ -1,4 +1,4 @@
-//Normal function implementation
+//normal function implementation
 function getLargestEvenNumber(arrayInput) {
   if (!Array.isArray(arrayInput) || (!arrayInput.every(num => Number.isInteger(num)))) {
     throw new 'Type Error';
